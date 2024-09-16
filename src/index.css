@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+}
+.container{
+    width: 90%;
+    margin: 15px auto;
+}
+.button{
+    background-color: rgb(58, 58, 123);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20rem;
+}
+
+@media screen and (min-width: 640px) {
+    .container{
+        max-width: 1170px;
+        width: 85%;
+        margin: 30px auto;
+    }
+}
